@@ -3,7 +3,7 @@ import Button from "./reusables/Button";
 
 function JoinUs() {
 	return (
-		<div className='bg-[#ffffef] lg:px-20 px-4 py-12 sm:py-0'>
+		<div id='JoinUs' className='bg-[#ffffef] lg:px-20 px-4 py-12 sm:py-0'>
 			<div className='container flex flex-col-reverse justify-center items-center mx-auto sm:flex-row'>
 				<div className='w-full lg:w-1/2 mr-10 sm:mr-0 mb-8 sm:mb-0'>
 					<img

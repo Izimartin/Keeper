@@ -2,7 +2,7 @@ import React from "react";
 
 function Download() {
 	return (
-		<div className='bg-[#f7fdff] lg:px-20 px-6 py-0'>
+		<div id='Download' className='bg-[#f7fdff] lg:px-20 px-6 py-0'>
 			<div className='container flex flex-col-reverse items-center mx-auto sm:flex-row'>
 				<div className='w-full lg:w-1/2 lg:mr-16'>
 					<div className='flex flex-col justify-start max-w-lg mx-auto lg:ml-0 lg:max-w-none'>

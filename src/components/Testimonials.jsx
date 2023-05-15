@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonials() {
 	return (
-		<div className='lg:px-20 px-4 py-20'>
+		<div id='Testimonials' className='lg:px-20 px-4 py-20'>
 			<div className='container mx-auto'>
 				<div className='flex flex-col items-start mt-8'>
 					<h2 className='text-3xl font-bold sm:text-4xl mb-8 font-bold'>

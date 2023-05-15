@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
 	return (
-		<div className='bg-[#ffffef] lg:px-20 px-4 py-6'>
+		<div id='Features' className='bg-[#ffffef] lg:px-20 px-4 py-6'>
 			<div className='container flex flex-col-reverse justify-center items-center mx-auto sm:flex-row'>
 				<div className='w-full lg:w-1/2 mr-0 sm:mr-20'>
 					<img

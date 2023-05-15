@@ -3,7 +3,7 @@ import Card from "./reusables/Card";
 
 function WhyUS() {
 	return (
-		<div className='bg-[#f7fdff] lg:px-20 px-4 py-8 lg:py-20'>
+		<div id='WhyUs' className='bg-[#f7fdff] lg:px-20 px-4 py-8 lg:py-20'>
 			<div className='container flex flex-col items-center justify-center mx-auto'>
 				<div className='w-full mx-auto'>
 					<div className='flex flex-col justify-center max-w-3xl mx-auto'>

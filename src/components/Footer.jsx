@@ -8,7 +8,7 @@ function Footer() {
 		<div className='lg:px-20 px-4 py-12 sm:py-0'>
 			<div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10'>
 				<div className='mt-8'>
-					<a href='#!'>
+					<a href='/'>
 						<span className='sr-only'>Keeper</span>
 						<img className='h-8' src={Logo} alt='Logo' />
 					</a>

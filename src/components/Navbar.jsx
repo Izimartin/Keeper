@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Button from "./reusables/Button";
-import Logo from "../../public/assets/img/logo.png";
+import Logo from "/assets/img/logo.png";
 
 export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ export default function Navbar() {
 						Features
 					</a>
 					<a
-						href='#WhyUS'
+						href='#WhyUs'
 						className='text-sm font-semibold leading-6 text-gray-900'>
 						Why Us?
 					</a>
@@ -55,7 +55,8 @@ export default function Navbar() {
 				</div>
 
 				<div className='flex lg:flex-1 lg:justify-end items-center m-1'>
-					<Button text='Get Started' />
+					<Button text='Get Started' targetSection='Download' />
+
 					<a
 						href='#!'
 						className='text-sm font-semibold leading-6 text-gray-900'>
@@ -84,17 +85,17 @@ export default function Navbar() {
 						<div className='-my-6 divide-y divide-gray-500/10'>
 							<div className='space-y-2 py-6'>
 								<a
-									href='#!'
+									href='#Features'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									Features
 								</a>
 								<a
-									href='#!'
+									href='#WhyUs'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									Why Us?
 								</a>
 								<a
-									href='#!'
+									href='#Testimonials'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									Testimonials
 								</a>
@@ -104,7 +105,7 @@ export default function Navbar() {
 									Blog
 								</a>
 								<a
-									href='#!'
+									href='JoinUs'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									FAQs
 								</a>
