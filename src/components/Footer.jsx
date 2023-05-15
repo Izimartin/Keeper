@@ -42,7 +42,7 @@ function Footer() {
 				</div>
 			</div>
 
-			<div className=' mt-12 text-center'>
+			<div className='mb-6 mt-12 text-center'>
 				<p>&copy; 2023 Keeper. All rights reserved.</p>
 			</div>
 		</div>
