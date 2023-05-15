@@ -8,14 +8,15 @@ export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<div className='lg:px-20 px-20 py-6'>
+		<div className='lg:px-20 px-4 py-6'>
 			<nav className='flex items-center justify-between' aria-label='Global'>
-				<div className='flex lg:flex-1'>
+				<div className='hidden lg:flex lg:flex-1'>
 					<a href='#!' className='-m-1.5 p-1.5'>
 						<span className='sr-only'>Keeper</span>
 						<img className='h-8' src={Logo} alt='Logo' />
 					</a>
 				</div>
+
 				<div className='flex lg:hidden'>
 					<button
 						type='button'
@@ -55,7 +56,6 @@ export default function Navbar() {
 
 				<div className='flex lg:flex-1 lg:justify-end items-center m-1'>
 					<Button text='Get Started' />
-
 					<a
 						href='#!'
 						className='text-sm font-semibold leading-6 text-gray-900'>
@@ -77,7 +77,7 @@ export default function Navbar() {
 							className='-m-2.5 rounded-md p-2.5 text-gray-700'
 							onClick={() => setMobileMenuOpen(false)}>
 							<span className='sr-only'>Close menu</span>
-							<XMarkIcon className='h-6 w-6' aria-hidden='true' />
+							<XMarkIcon className='h-6 w-6' aria-hidden />
 						</button>
 					</div>
 					<div className='mt-6 flow-root'>
@@ -91,24 +91,24 @@ export default function Navbar() {
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Home
+									Features
 								</a>
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Home
+									Why Us?
 								</a>
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Home
+									Testimonials
 								</a>
 							</div>
 							<div className='py-6'>
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Home
+									Blog
 								</a>
 							</div>
 						</div>
