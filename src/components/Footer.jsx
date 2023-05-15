@@ -5,7 +5,7 @@ import Logo from "../assets/img/logo.png";
 
 function Footer() {
 	return (
-		<div className='lg:px-20 px-20 py-6'>
+		<div className='lg:px-20 px-4 py-12 sm:py-0'>
 			<div className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10'>
 				<div className='mt-8'>
 					<a href='#!'>
@@ -18,11 +18,11 @@ function Footer() {
 					</p>
 				</div>
 
-				<div className='mx-auto '>
+				<div className='px-4'>
 					<ItemList heading='Our Comapny' text1='Keeper' />
 				</div>
 
-				<div className='mx-auto '>
+				<div className='px-4'>
 					<ItemList
 						heading='Our Comapny'
 						text1='Reporting'
@@ -31,7 +31,7 @@ function Footer() {
 					/>
 				</div>
 
-				<div className='mx-auto'>
+				<div className='px-4'>
 					<ItemList
 						heading='Address'
 						icon1={<FiMapPin className='inline-block mr-2' />}
