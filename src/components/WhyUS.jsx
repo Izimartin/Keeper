@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./reusables/Card";
 
-function WhyUS() {
+function WhyUs() {
 	return (
 		<div id='WhyUs' className='bg-[#f7fdff] lg:px-20 px-4 py-8 lg:py-20'>
 			<div className='container flex flex-col items-center justify-center mx-auto'>
@@ -45,4 +45,4 @@ function WhyUS() {
 	);
 }
 
-export default WhyUS;
+export default WhyUs;
