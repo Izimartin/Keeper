@@ -6,7 +6,7 @@
 
 [vite-plugin-react-pages](https://vitejs.github.io/vite-plugin-react-pages) (vite-pages) is a React app framework powered by [vite](https://github.com/vitejs/vite). It is very suitable for:
 
-- blog site
+- blog - site
 - documentation site for your library or product
 - stories/demos/playgrounds for your React components or libraries (like [storybook](https://storybook.js.org/))
 
