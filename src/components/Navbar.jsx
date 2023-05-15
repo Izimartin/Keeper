@@ -86,11 +86,6 @@ export default function Navbar() {
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Home
-								</a>
-								<a
-									href='#!'
-									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									Features
 								</a>
 								<a
@@ -103,12 +98,22 @@ export default function Navbar() {
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
 									Testimonials
 								</a>
+								<a
+									href='#!'
+									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
+									Blog
+								</a>
+								<a
+									href='#!'
+									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
+									FAQs
+								</a>
 							</div>
 							<div className='py-6'>
 								<a
 									href='#!'
 									className='-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10'>
-									Blog
+									Log in
 								</a>
 							</div>
 						</div>
