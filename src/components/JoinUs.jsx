@@ -13,12 +13,12 @@ function JoinUs() {
 					/>
 				</div>
 				<div className='w-full lg:w-1/2'>
-					<div className='flex flex-col justify-center max-w-lg mx-auto lg:ml-0 lg:mr-auto lg:max-w-none sm:text-center'>
-						<h3 className='text-3xl font-bold sm:text-5xl text-center'>
+					<div className='flex flex-col justify-center max-w-lg mx-auto lg:ml-0 lg:mr-auto lg:max-w-none '>
+						<h3 className='text-3xl font-bold sm:text-5xl text-center sm:text-left'>
 							Join us now!
 						</h3>
 
-						<p className='mt-4 sm:mt-6 mb-8 text-center'>
+						<p className='mt-4 sm:mt-6 mb-8 '>
 							Let that trip serve you well and have fun away from home. We will
 							keep your home warm and cozy for your arrival.
 						</p>
