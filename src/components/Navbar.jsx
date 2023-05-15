@@ -11,7 +11,7 @@ export default function Navbar() {
 		<div className='lg:px-20 px-4 py-6'>
 			<nav className='flex items-center justify-between' aria-label='Global'>
 				<div className='hidden lg:flex lg:flex-1'>
-					<a href='#!' className='-m-1.5 p-1.5'>
+					<a href='/' className='-m-1.5 p-1.5'>
 						<span className='sr-only'>Keeper</span>
 						<img className='h-8' src={Logo} alt='Logo' />
 					</a>
@@ -28,17 +28,17 @@ export default function Navbar() {
 				</div>
 				<div className='hidden lg:flex lg:gap-x-12'>
 					<a
-						href='#!'
+						href='#Features'
 						className='text-sm font-semibold leading-6 text-gray-900'>
 						Features
 					</a>
 					<a
-						href='#!'
+						href='#WhyUS'
 						className='text-sm font-semibold leading-6 text-gray-900'>
 						Why Us?
 					</a>
 					<a
-						href='#!'
+						href='#Testimonials'
 						className='text-sm font-semibold leading-6 text-gray-900'>
 						Testimonials
 					</a>
