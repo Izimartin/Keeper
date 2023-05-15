@@ -15,7 +15,7 @@ function Testimonials() {
 						<div className='flex flex-col justify-start max-w-lg mx-auto lg:ml-0 lg:mr-auto lg:max-w-none'>
 							<div className='absolute top-[-112px] right-[-30px] hidden sm:block'>
 								<img
-									src='/src/assets/img/woman-img.png'
+									src='/assets/img/woman-img.png'
 									alt='Profile'
 									className='w-70 h-96'
 								/>

@@ -7,7 +7,7 @@ function JoinUs() {
 			<div className='container flex flex-col-reverse justify-center items-center mx-auto sm:flex-row'>
 				<div className='w-full lg:w-1/2 mr-10 sm:mr-0 mb-8 sm:mb-0'>
 					<img
-						src='/src/assets/img/cup-img.png'
+						src='/assets/img/cup-img.png'
 						alt='Hero Image'
 						className='object-cover w-full h-auto'
 					/>

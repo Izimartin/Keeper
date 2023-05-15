@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Button from "./reusables/Button";
-import Logo from "../assets/img/logo.png";
+import Logo from "../../public/assets/img/logo.png";
 
 export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -27,7 +27,7 @@ function Hero() {
 				</div>
 				<div className='w-full lg:w-1/2'>
 					<img
-						src='/src/assets/img/hero-img.png'
+						src='/assets/img/hero-img.png'
 						alt='Hero Image'
 						className='object-cover w-full h-auto'
 					/>

@@ -1,7 +1,7 @@
 import React from "react";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 import ItemList from "./reusables/ItemList";
-import Logo from "../assets/img/logo.png";
+import Logo from "../../public/assets/img/logo.png";
 
 function Footer() {
 	return (

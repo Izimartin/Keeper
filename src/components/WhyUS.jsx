@@ -24,19 +24,19 @@ function WhyUS() {
 			<div className='flex flex-col sm:flex-row justify-center'>
 				<Card
 					backgroundColor='#69C9DE'
-					icon='/src/assets/Icons/Icon-1.png'
+					icon='/assets/Icons/Icon-1.png'
 					heading='Control'
 					isLast={false}
 				/>
 				<Card
 					backgroundColor='#DE7069'
-					icon='/src/assets/Icons/Icon-2.png'
+					icon='/assets/Icons/Icon-2.png'
 					heading='Confirm'
 					isLast={false}
 				/>
 				<Card
 					backgroundColor='#72DE69'
-					icon='/src/assets/Icons/Icon-3.png'
+					icon='/assets/Icons/Icon-3.png'
 					heading='Converse'
 					isLast={true}
 				/>

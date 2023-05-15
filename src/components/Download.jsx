@@ -18,8 +18,8 @@ function Download() {
 				</div>
 				<div className='w-full lg:w-1/2 justify-end'>
 					<img
-						src='/src/assets/img/download-img.png'
-						alt='Hero Image'
+						src='/assets/img/download-img.png'
+						alt='Flower Image'
 						className='object-cover w-34 h-62'
 					/>
 				</div>
@@ -28,8 +28,8 @@ function Download() {
 			<div className='container flex flex-col items-center mx-auto sm:flex-row py-8'>
 				<div className='w-full lg:w-1/2 sm:ml-0 lg:ml-36 flex justify-center mr-6'>
 					<img
-						src='/src/assets/img/background-img.png'
-						alt=''
+						src='/assets/img/background-img.png'
+						alt='Mobile App'
 						className='object-cover w-54 h-cover'
 					/>
 				</div>
@@ -50,14 +50,14 @@ function Download() {
 					<div className='flex justify-start'>
 						<a href='#' className='mr-4'>
 							<img
-								src='/src/assets/img/appstore-button.png'
+								src='/assets/img/appstore-button.png'
 								alt='App Store'
 								className='w-40 h-auto'
 							/>
 						</a>
 						<a href='#'>
 							<img
-								src='/src/assets/img/playstore-button.png'
+								src='/assets/img/playstore-button.png'
 								alt='Play Store'
 								className='w-40 h-auto'
 							/>

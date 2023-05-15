@@ -6,8 +6,8 @@ function Hero() {
 			<div className='container flex flex-col-reverse justify-center items-center mx-auto sm:flex-row'>
 				<div className='w-full lg:w-1/2 mr-0 sm:mr-20'>
 					<img
-						src='/src/assets/img/features-img.png'
-						alt='Hero Image'
+						src='/assets/img/features-img.png'
+						alt='Feature Image'
 						className='object-cover w-full h-auto'
 					/>
 				</div>
