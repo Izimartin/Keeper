@@ -2,6 +2,7 @@ import React from "react";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 import ItemList from "./reusables/ItemList";
 import Logo from "../../public/assets/img/logo.png";
+import BackToTop from "./reusables/BackToTop";
 
 function Footer() {
 	return (
@@ -41,7 +42,7 @@ function Footer() {
 					/>
 				</div>
 			</div>
-
+			<BackToTop />
 			<div className='mb-6 mt-12 text-center'>
 				<p>&copy; 2023 Keeper. All rights reserved.</p>
 			</div>
