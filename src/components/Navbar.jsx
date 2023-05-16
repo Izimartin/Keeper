@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Button from "./reusables/Button";
-import Logo from "/assets/img/logo.png";
+import logo from "../assets/img/logo.png";
 
 export default function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
 				<div className='hidden lg:flex lg:flex-1'>
 					<a href='/' className='-m-1.5 p-1.5'>
 						<span className='sr-only'>Keeper</span>
-						<img className='h-8' src={Logo} alt='Logo' />
+						<img className='h-8' src={logo} alt='Logo' />
 					</a>
 				</div>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
 					<div className='flex items-center justify-between'>
 						<a href='#!' className='-m-1.5 p-1.5'>
 							<span className='sr-only'>Keeper</span>
-							<img className='h-8' src={Logo} alt='Logo' />
+							<img className='h-8' src={logo} alt='Logo' />
 						</a>
 						<button
 							type='button'

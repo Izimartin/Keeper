@@ -1,7 +1,7 @@
 import React from "react";
 import { FiMapPin, FiPhone } from "react-icons/fi";
 import ItemList from "./reusables/ItemList";
-import Logo from "../../public/assets/img/logo.png";
+import logo from "../assets/img/logo.png";
 import BackToTop from "./reusables/BackToTop";
 
 function Footer() {
@@ -11,7 +11,7 @@ function Footer() {
 				<div className='mt-8'>
 					<a href='/'>
 						<span className='sr-only'>Keeper</span>
-						<img className='h-8' src={Logo} alt='Logo' />
+						<img className='h-8' src={logo} alt='Logo' />
 					</a>
 					<p>
 						We look after your home and environs while you're away, providing
